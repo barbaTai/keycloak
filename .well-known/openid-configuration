@@ -5,6 +5,7 @@
  "https://rp.spid.agid.gov.it/callback2/"
  ],
  "signed_jwks_uri": "https://registry.spid.gov.it",
+ "id_token_signed_response_alg":"algoritmo a caso",
 
  "response_types": ["code"],
  "grant_types": ["authorization_code", "refresh_token"],
