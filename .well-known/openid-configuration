@@ -1,5 +1,5 @@
 {
- "client_id": "https://rp.spid.agid.gov.it",
+ "client_id": "https://raw.githubusercontent.com/barbaTai/keycloak/master/.well-known/openid-configuration",
  "redirect_uris": [
  "https://rp.spid.agid.gov.it/callback1/",
  "https://rp.spid.agid.gov.it/callback2/"
