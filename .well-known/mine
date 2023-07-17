@@ -1,14 +1,22 @@
 {
-  "client_id":"clientId",
-  "redirect_uris":["https://rp.spid.agid.gov.it/callback1/","https://rp.spid.agid.gov.it/callback2/"],
-  "signed_jwks_uri":"https://registry.spid.gov.it",
-  "id_token_signed_response_alg":"adsf",
-  "userinfo_signed_response_alg":"asdf",
-  "userinfo_encrypted_response_alg":"asd",
-  "userinfo_encrypted_response_enc":"asdf",
-  "token_endpoint_auth_method":"sadf",
-  "response_types":["code"],
-  "grant_types":["authorization_code","refresh_token"],
-  "client_name":"RT RP test client",
-  "client_name#en":"RT RP test client"
+  "client_id": "clientId",
+  "redirect_uris": [
+    "https://rp.spid.agid.gov.it/callback1/",
+    "https://rp.spid.agid.gov.it/callback2/"
+  ],
+  "signed_jwks_uri": "https://registry.spid.gov.it",
+  "id_token_signed_response_alg": "",
+  "userinfo_signed_response_alg": "",
+  "userinfo_encrypted_response_alg": "",
+  "userinfo_encrypted_response_enc": "",
+  "token_endpoint_auth_method": "",
+  "response_types": [
+    "code"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "client_name": "RT RP test client",
+  "client_name#en": "RT RP test client"
 }
