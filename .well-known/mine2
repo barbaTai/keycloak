@@ -9,7 +9,7 @@
   "userinfo_signed_response_alg": "",
   "userinfo_encrypted_response_alg": "",
   "userinfo_encrypted_response_enc": "",
-  "token_endpoint_auth_method": "",
+  "token_endpoint_auth_method": "STOCAZZO",
   "response_types": [
     "code"
   ],
