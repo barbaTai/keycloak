@@ -1,0 +1,22 @@
+{
+    "client_id": "http://arpa.keycloak:8080/auth/realms/RT/.well-known/openid-configuration-agid",
+    "redirect_uris": [
+        "https://rp.spid.agid.gov.it/callback1/",
+        "https://rp.spid.agid.gov.it/callback2/"
+    ],
+    "signed_jwks_uri": "http://arpa.keycloak:8080/auth/realms/RT/protocol/openid-connect/certs",
+    "id_token_signed_response_alg": "RS256",
+    "userinfo_signed_response_alg": "RS256",
+    "userinfo_encrypted_response_alg": "RSA-OAEP-256",
+    "userinfo_encrypted_response_enc": "A256CBC-HS512",
+    "token_endpoint_auth_method": "POST",
+    "response_types": [
+        "code"
+    ],
+    "grant_types": [
+        "authorization_code",
+        "refresh_token"
+    ],
+    "client_name": "ARPA - Regione Toscana",
+    "client_name#en": "ARPA - Regione Toscana"
+}
