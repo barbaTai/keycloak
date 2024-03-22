@@ -1,7 +1,7 @@
 <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
                      xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions"
                      ID="ID_82437a67-63cc-4d76-a28d-6134b7455277"
-                     entityID="http://arpa.keycloak:8080/auth/pub-ag-full/vattela">
+                     entityID="http://arpa.keycloak:8080/auth/pub-ag-full/mono_gruppo_RT">
     <ds:Signature>
         <ds:SignedInfo>
             <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
@@ -160,7 +160,7 @@
     </md:ContactPerson>
     <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
         <md:Extensions>
-            <spid:IPACode>vattela</spid:IPACode>
+            <spid:IPACode>mono_gruppo_RT</spid:IPACode>
             <spid:Public/>
         </md:Extensions>
         <md:Company>Comune di Vattelappesca e Monogruppo</md:Company>
