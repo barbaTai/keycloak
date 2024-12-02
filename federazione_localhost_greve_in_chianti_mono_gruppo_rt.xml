@@ -1,0 +1,457 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
+                     xmlns:cie="https://www.cartaidentita.interno.gov.it/saml-extensions"
+                     xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+                     xmlns:spid="https://spid.gov.it/saml-extensions" ID="ID_4fef15d3-bb6a-49ca-b0c4-10987fff30c0"
+                     entityID="http://localhost:8080/auth/pub-ag-full/mono_gruppo_RT">
+    <ds:Signature>
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="#ID_4fef15d3-bb6a-49ca-b0c4-10987fff30c0">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>MXeFkSBaXfo+XSWK+fzvTxzAw8LFEEfem0QR9KAlXuQ=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            fajJ+aQQzpS/phhAD/5VEi7Nxighwvj347Tp+cTL6Ftq7GhfP+bJmk4GkG6RmL5WSF9CIWSGl7fkz7ikRqtvMfkJ6fMRuIOR4cHia+663Nl3x9wdI0WlpUZc+OX7M0fQL/i9kZtxrZaV6sbj0MluZYYMkj1axzvJB6/gXTNAsy3P9e2646mFAJ64jhi/nEAOxY3qUfLDibES1LfN/598dLp9UCrgAUQcLVFSfXvoHrTlIDezfdUmQK2MQCQRaFqOaSaquZ1K7E7o1pVM1daQnxQmy8wGYeS64EYQKAXh4fTZtqPFaMpiWnnoRtqaR1fuRpXQ6VEDQ+B0J2BUmsehyg==
+        </ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIICkzCCAXsCBgGPq0xAVTANBgkqhkiG9w0BAQsFADANMQswCQYDVQQDDAJSVDAeFw0yNDA1MjQxNTQ5MTJaFw0zNDA1MjQxNTUwNTJaMA0xCzAJBgNVBAMMAlJUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAse5VCbZN1p2Od+9xhLPKbo729hvJX0icqq6kVHF2TicPV6sb62NYjzoZsGmghIgKpqbPkUCyQcAz7z8sgrhexc46MukiaGNL1mqV8s4tWHyVxqlwsyBm2y3+4DjPUtXO4V/a630rDhNpoaJMJAsgrNElYbHPTOpvJv7vMhJtpwur49kMAzbh0ExJLzdgD7sICVZNSKYPrTi0w6h2kaFJco5XLF3ICPYcU8tTStXCl1f78XdDJuGUQDVidGVY6jLgOQ8GTSluzwsLlHhtxNezt2UNp99BYuGccSBzIEijHtbyIgs51VO1Jhx36gst+JPqZ9ZqIxVRfteAymfKPjGznwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBSN/pmokEdKcDrHfWVlU6gSK3h7R+SBtCqInzv9UtttbtORXkn0GPlJI7WAg6IDh+EeO3hrivXjGwQ1OyfvJImAN4ImBleeDX29TxlYYPI6XFVrgAEFevyvvz4fGZQ9+aSd2WCBMzsWc70Y909/S1nHhNqjEea4cpLTouoE52f2msBWXKHE/FU5fScLweS2zy3rAag9/8VmHgaEpsdASOmBlB1AWx4IeLqP1tIy9QnkD5GjbbIRDCsjFj0fi7YrlR0LGJtaggHOcx+uObuPzy+AhZpbce+y+78M5/tx6P2LLAVGC2UDURchFgfo4dHdtGa5P4OT6+FM40ozmw0eJ8g
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true"
+                        protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor>
+            <ds:KeyInfo>
+                <ds:KeyName>yU3zh1iIT1vtbhT7opn9dUp0Mw2Ne9bZ0RP8s32Zykg</ds:KeyName>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIICkzCCAXsCBgGPq0xAVTANBgkqhkiG9w0BAQsFADANMQswCQYDVQQDDAJSVDAeFw0yNDA1MjQxNTQ5MTJaFw0zNDA1MjQxNTUwNTJaMA0xCzAJBgNVBAMMAlJUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAse5VCbZN1p2Od+9xhLPKbo729hvJX0icqq6kVHF2TicPV6sb62NYjzoZsGmghIgKpqbPkUCyQcAz7z8sgrhexc46MukiaGNL1mqV8s4tWHyVxqlwsyBm2y3+4DjPUtXO4V/a630rDhNpoaJMJAsgrNElYbHPTOpvJv7vMhJtpwur49kMAzbh0ExJLzdgD7sICVZNSKYPrTi0w6h2kaFJco5XLF3ICPYcU8tTStXCl1f78XdDJuGUQDVidGVY6jLgOQ8GTSluzwsLlHhtxNezt2UNp99BYuGccSBzIEijHtbyIgs51VO1Jhx36gst+JPqZ9ZqIxVRfteAymfKPjGznwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBSN/pmokEdKcDrHfWVlU6gSK3h7R+SBtCqInzv9UtttbtORXkn0GPlJI7WAg6IDh+EeO3hrivXjGwQ1OyfvJImAN4ImBleeDX29TxlYYPI6XFVrgAEFevyvvz4fGZQ9+aSd2WCBMzsWc70Y909/S1nHhNqjEea4cpLTouoE52f2msBWXKHE/FU5fScLweS2zy3rAag9/8VmHgaEpsdASOmBlB1AWx4IeLqP1tIy9QnkD5GjbbIRDCsjFj0fi7YrlR0LGJtaggHOcx+uObuPzy+AhZpbce+y+78M5/tx6P2LLAVGC2UDURchFgfo4dHdtGa5P4OT6+FM40ozmw0eJ8g
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor>
+            <ds:KeyInfo>
+                <ds:KeyName>Uyskw9OVkr17I3S-jMQsZq6BRQi8E-WtKcpNtx4KaPY</ds:KeyName>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIICkzCCAXsCBgGPq0xA5TANBgkqhkiG9w0BAQsFADANMQswCQYDVQQDDAJSVDAeFw0yNDA1MjQxNTQ5MTJaFw0zNDA1MjQxNTUwNTJaMA0xCzAJBgNVBAMMAlJUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqB3olpEaUvSXq1hNf/7Q0NIstGmdQmpexswuDXT8Rh5MvVymNHM4syyUvb8fhlbJZRVuejcJRni8oKL7+RuNV89i/fFvXoRA1tco1f/RlhDThKP5hf03w+TA+nPhjJeXoCcUuKEfLGhP/bic0N2LW5QDNEAfMdEskGWwSQmHkEFpogQ2KJkDftyKXETd3Qsiaexro0iDdIGM/xiu6MHKTt6U3gUAT1lV0nG8EJImcvVslYcaJmWry1mEuaQP7/j50Hb8MvyEnj6ExGohR4Uxz2+uBuT0DZGrYGPRTmx+mS7EhdnEd5JbvENkLVIBaWOl2VomEPOZRLfIPyHL17Ak4wIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAEdrh6XlnqBB1zlIJE5eDnkgNyneAtc/u26c17MPOcMKbK2pgULLrPTDRJRVzZw5nMh3ksLeV+kdDMa3FLjt+CJuZNjLN0rX5jLkqOUEJA5dz7qmib5Xbi7K64qMgqzm4R+w4uJo8YRNtunExB304goWqjrC8SsrDvRsFrDCSt5aPqBegRoDZV5r44ZJnCiw1evABd5zj+OCwMxGPqcKlt5D5cmg84O6pUAC2eluRFuHeP9krqbRFoUXEoydNiE9MCSGF72fj6QFNK6Dvt0UEu8/6aw2bPps0+Vp11C8HthSOhLS2pDXOPVAtndfV9I/SLkC5M/3X0Gs9TkNcwT7Ps
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                Location="http://localhost:8080/auth/realms/RT/broker/SPID/endpoint"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                     Location="http://localhost:8080/auth/realms/RT/broker/SPID/endpoint" index="0"
+                                     isDefault="true"/>
+        <md:AttributeConsumingService index="0" isDefault="true">
+            <md:ServiceName xml:lang="en">default</md:ServiceName>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile</md:ServiceName>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2" isDefault="false">
+            <md:ServiceName xml:lang="en">default,email</md:ServiceName>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="3" isDefault="false">
+            <md:ServiceName xml:lang="en">default,phone</md:ServiceName>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="4" isDefault="false">
+            <md:ServiceName xml:lang="en">default,address</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="5" isDefault="false">
+            <md:ServiceName xml:lang="en">default,professional</md:ServiceName>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="6" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,email</md:ServiceName>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="7" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,phone</md:ServiceName>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="8" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,address</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="9" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,professional</md:ServiceName>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="10" isDefault="false">
+            <md:ServiceName xml:lang="en">default,email,phone</md:ServiceName>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="11" isDefault="false">
+            <md:ServiceName xml:lang="en">default,email,address</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="12" isDefault="false">
+            <md:ServiceName xml:lang="en">default,email,professional</md:ServiceName>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="13" isDefault="false">
+            <md:ServiceName xml:lang="en">default,phone,address</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="14" isDefault="false">
+            <md:ServiceName xml:lang="en">default,phone,professional</md:ServiceName>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="15" isDefault="false">
+            <md:ServiceName xml:lang="en">default,address,professional</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="16" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,email,phone</md:ServiceName>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="17" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,email,address</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="18" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,email,professional</md:ServiceName>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="19" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,phone,address</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="20" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,phone,professional</md:ServiceName>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="21" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,address,professional</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="22" isDefault="false">
+            <md:ServiceName xml:lang="en">default,email,phone,address</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="23" isDefault="false">
+            <md:ServiceName xml:lang="en">default,email,phone,professional</md:ServiceName>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="24" isDefault="false">
+            <md:ServiceName xml:lang="en">default,email,address,professional</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="25" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,email,phone,address</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="26" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,email,phone,professional</md:ServiceName>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="27" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,email,address,professional</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="28" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,phone,address,professional</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="29" isDefault="false">
+            <md:ServiceName xml:lang="en">default,email,phone,address,professional</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="30" isDefault="false">
+            <md:ServiceName xml:lang="en">default,profile,email,phone,address,professional</md:ServiceName>
+            <md:RequestedAttribute Name="domicilePostalCode"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation"
+                                   NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="99" isDefault="false">
+            <md:ServiceName xml:lang="en">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="100" isDefault="false">
+            <md:ServiceName xml:lang="en">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Greve in Chianti</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Comune di Greve in Chianti</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.comunefiv.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+        <md:Extensions>
+            <spid:PublicServicesFullAggregator/>
+            <spid:IPACode>mono_gruppo_RT</spid:IPACode>
+            <spid:VATNumber>01386030488</spid:VATNumber>
+        </md:Extensions>
+        <md:Company>Regione Grevigiana</md:Company>
+        <md:EmailAddress>arpa@regione.toscana.it</md:EmailAddress>
+        <md:TelephoneNumber>+39800022000</md:TelephoneNumber>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+        <md:Extensions>
+            <spid:IPACode>mono_gruppo_RT</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Comune di Greve in Chianti</md:Company>
+    </md:ContactPerson>
+</md:EntityDescriptor>
